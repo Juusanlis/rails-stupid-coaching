@@ -1,0 +1,10 @@
+<%# affiche la question que tu poses au coach et sa réponse. Le contrôleur devrait lire la question
+depuis params et calculer une
+variable d’instance @answer à afficher dans la vue %>
+<br>
+<p>You asked: <br><%= @question %></p>
+
+<p>Coach answered: <br> <%= @answer %></p>
+
+<p>> <%= link_to "Home", ask_path %></p>
+
